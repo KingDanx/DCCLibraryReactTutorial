@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import "./Footer";
+import React from 'react';
+import "./Footer.css";
 
 const Footer = (props) => {
     return ( 
-        <div className="footer">©{props.year} {props.siteName}</div>
+        <h4 className="footer">CopyRight ©{props.year} {props.siteName}</h4>
      );
 }
  
